@@ -1,0 +1,21 @@
+{
+  "name": "visual_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "casperjs test testcase.js",
+    "start": "http-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "casperjs": "^1.1.4",
+    "http-server": "^14.0.0",
+    "phantomcss": "^1.6.0",
+    "phantomjs-prebuilt": "^2.1.16"
+  },
+  "dependencies": {
+    "python": "0.0.4"
+  }
+}
